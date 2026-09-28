@@ -1,0 +1,75 @@
+/* 루쓰컴퍼니 네이버 블로그 디자인 토큰 (v1.2 라이트 테마)
+ *
+ * 네이버 블로그 위젯과 게시물 본문은 <style> 블록이 제거될 수 있어
+ * 실제 적용 시에는 이 파일의 값을 인라인 style 속성으로 옮겨 넣는다.
+ * 이 파일은 값의 원본을 한곳에서 관리하기 위한 참조용이다.
+ */
+
+:root {
+  --background: #ffffff;
+  --foreground: #1d1d1f;
+  --gray-bg: #f5f5f7;
+  --gray-card: #fbfbfd;
+  --gray-text: #6e6e73;
+  --gray-line: #d2d2d7;
+
+  --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Malgun Gothic",
+    "맑은 고딕", "Apple SD Gothic Neo", sans-serif;
+
+  --radius-card: 18px;
+  --radius-hero: 24px;
+  --radius-pill: 980px;
+
+  /* 네이버 블로그 고정 규격 */
+  --naver-layout-width: 966px;
+  --naver-title-height: 600px;
+  --naver-widget-width: 170px;
+}
+
+/* 필 버튼 — 위젯 CTA 및 본문 하단 CTA 공통 */
+.luce-pill {
+  display: block;
+  box-sizing: border-box;
+  padding: 12px 16px;
+  border-radius: var(--radius-pill);
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: -0.02em;
+}
+
+.luce-pill--primary {
+  background: var(--foreground);
+  color: #ffffff;
+}
+
+.luce-pill--outline {
+  background: #ffffff;
+  color: var(--foreground);
+  border: 1px solid var(--gray-line);
+}
+
+/* 게시물 카드 */
+.luce-card {
+  box-sizing: border-box;
+  border: 1px solid var(--gray-line);
+  border-radius: var(--radius-card);
+  background: var(--gray-card);
+  padding: 24px;
+}
+
+/* 헤어라인 구분선 */
+.luce-line {
+  height: 1px;
+  background: var(--gray-line);
+  border: 0;
+}
+
+/* 보조 텍스트 */
+.luce-caption {
+  font-size: 12px;
+  color: var(--gray-text);
+  letter-spacing: -0.01em;
+}

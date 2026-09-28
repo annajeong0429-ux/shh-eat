@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" fill="none">
+  <rect width="1920" height="1080" fill="#F7F7F7"/>
+  <rect x="760" y="400" width="400" height="280" rx="18" fill="#EDEDED" stroke="#D2D2D7"/>
+  <text x="960" y="530" text-anchor="middle" fill="#6E6E73" font-family="system-ui, sans-serif" font-size="24">
+    Hero Background Placeholder
+  </text>
+  <text x="960" y="570" text-anchor="middle" fill="#6E6E73" font-family="system-ui, sans-serif" font-size="16">
+    ?? ???? ?? ??
+  </text>
+</svg>
