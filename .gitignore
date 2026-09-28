@@ -1,5 +1,6 @@
 # Dependencies
 node_modules/
+.pnpm-store/
 
 # Build outputs
 .next/
@@ -25,3 +26,6 @@ pnpm-debug.log*
 Thumbs.db
 .vscode/
 .idea/
+
+.vercel
+.env*
